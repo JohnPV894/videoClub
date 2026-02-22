@@ -16,30 +16,30 @@
                     <div class="card-body p-4 p-md-5">
                         <h1 class="h3 text-center mb-4 text-white">Crear cuenta</h1>
 
-                        <form>
+                        <form action="./php/registro.php" method="POST">
                             <div class="row">
                                 <div class="col-12 col-md-12 mb-3">
                                     <label for="usuario" class="form-label text-white">Usuario</label>
-                                    <input type="text" class="form-control" id="usuario" placeholder="Inserte su nombre de usuario" required>
+                                    <input type="text" name="usuario" class="form-control" id="usuario" placeholder="Inserte su nombre de usuario" required>
                                 </div>
                             </div>
-
+                        
                             <div class="mb-3">
                                 <label for="email" class="form-label text-white">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email" placeholder="nombre@correo.com" required>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="nombre@correo.com" required>
                             </div>
-
+                        
                             <div class="row">
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="password" class="form-label text-white">Contraseña</label>
-                                    <input type="password" class="form-control" id="password" placeholder="••••••••" required>
+                                    <input type="password" name="password" class="form-control" id="password" placeholder="••••••••" required>
                                 </div>
                                 <div class="col-12 col-md-6 mb-3">
                                     <label for="confirmPassword" class="form-label text-white">Confirmar contraseña</label>
-                                    <input type="password" class="form-control" id="confirmPassword" placeholder="••••••••" required>
+                                    <input type="password" name="confirmPassword" class="form-control" id="confirmPassword" placeholder="••••••••" required>
                                 </div>
                             </div>
-
+                        
                             <div class="d-grid mb-3 mt-4">
                                 <button type="submit" class="btn btn-primary">Crear cuenta</button>
                             </div>
