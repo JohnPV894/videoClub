@@ -1,0 +1,11 @@
+#fondo{
+    min-height: 100vh;
+    background-image: url('../src/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cartaLogin{
+    background-color: rgba(0, 0, 0, 0.6);
+}
